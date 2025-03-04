@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,7 +27,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Employee Registration</h2>
+    <h2> Create a new account</h2>
     <form id="registerForm">
         <label>Employee ID:</label>
         <input type="text" id="reg_emp_id" required>
