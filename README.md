@@ -14,10 +14,10 @@
         <button type="submit">Login</button>
     </form>
     <p id="loginMessage"></p>
-    <a href="register.html">Create a new account</a>
-    <script src="script.js"></script>
+   
 </body>
 </html>
+
 
 
 <html lang="en">
@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2> Create a new account</h2>
+    <h2>Employee Registration</h2>
     <form id="registerForm">
         <label>Employee ID:</label>
         <input type="text" id="reg_emp_id" required>
@@ -40,18 +40,7 @@
         <button type="submit">Register</button>
     </form>
     <p id="registerMessage"></p>
-    <a href="index.html">Back to Login</a>
-    <script src="script.js"></script>
+   
 </body>
 </html>
 
-
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Employee List - Almajdouie Accounting</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- 
