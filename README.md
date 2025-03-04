@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Login - Almajdouie Accounting</title>
@@ -18,6 +19,7 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,6 +46,7 @@
 </body>
 </html>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,3 +55,4 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ 
