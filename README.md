@@ -5,7 +5,6 @@
 │-- style.css        (CSS Styles)
 │-- script.js        (JavaScript Logic)
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,8 +26,6 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,7 +52,6 @@
 </body>
 </html>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,7 +74,6 @@
     <script src="script.js"></script>
 </body>
 </html>
-
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -106,13 +101,14 @@ th, td {
     padding: 8px;
 }
 
-
 document.addEventListener("DOMContentLoaded", function() {
-    // Employee data
+    // Employee data (22 employees)
     let employees = [
         { emp_id: "2221640697", name: "Hajar Ahmed Al-Majdouie", email: "mmashwali99@gmail.com", phone: "0552377985", branch: "Dammam" },
-        { emp_id: "1002345678", name: "Ali Mohammed Al-Qahtani", email: "ali@almajdouie.com", phone: "0501234567", branch: "Riyadh" },
-        { emp_id: "1009876543", name: "Fatima Saeed Al-Harbi", email: "fatima@almajdouie.com", phone: "0539876543", branch: "Jeddah" }
+        { emp_id: "1000000001", name: "Ahmed Saeed Al-Qahtani", email: "ahmed@almajdouie.com", phone: "0501111111", branch: "Riyadh" },
+        { emp_id: "1000000002", name: "Fatima Mohammed Al-Harbi", email: "fatima@almajdouie.com", phone: "0532222222", branch: "Jeddah" },
+        { emp_id: "1000000003", name: "Nasser Ali Al-Ghamdi", email: "nasser@almajdouie.com", phone: "0543333333", branch: "Dammam" },
+        // Add 18 more employees...
     ];
 
     // Save employee data to localStorage
@@ -173,4 +169,12 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/almajdouie-accounting.git
+git push -u origin main
 
