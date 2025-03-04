@@ -1,11 +1,7 @@
  // تسجيل الدخول
-    let loginForm = document.getElementById("loginForm");
-    if (loginForm) {
-        loginForm.addEventListener("submit", function(event) {
-            event.preventDefault();
-            
-            let emp_id = document.getElementById("emp_id").value;
-            let password = document.getElementById("password").value;
-            
-            
-
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/employee-login.git
+git push -u origin main
