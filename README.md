@@ -1,9 +1,4 @@
-/almajdouie-accounting
-│-- index.html       (Login Page)
-│-- register.html    (Register Page)
-│-- employees.html   (Employee Data Page)
-│-- style.css        (CSS Styles)
-│-- script.js        (JavaScript Logic)
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -154,27 +149,4 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Display employee data
-    let employeeTable = document.getElementById("employeeTable");
-    if (employeeTable) {
-        let storedEmployees = JSON.parse(localStorage.getItem("employees"));
-        storedEmployees.forEach(emp => {
-            let row = `<tr>
-                <td>${emp.name}</td>
-                <td>${emp.email}</td>
-                <td>${emp.phone}</td>
-                <td>${emp.branch}</td>
-            </tr>`;
-            employeeTable.innerHTML += row;
-        });
-    }
-});
-
-
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/almajdouie-accounting.git
-git push -u origin main
 
